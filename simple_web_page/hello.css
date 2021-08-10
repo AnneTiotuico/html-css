@@ -1,0 +1,29 @@
+strong {
+  color: #01448b;
+  text-decoration: underline;
+}
+
+h1 {
+  color: #64a2ad;
+  text-align: center;
+}
+
+em {
+  color: #f8735c;
+}
+
+p {
+  font-size: 24px;
+}
+
+body {
+  background-color: #faf6f2;
+}
+
+.more-text {
+  color: gray;
+}
+
+#final-paragraph {
+  text-decoration: underline;
+}

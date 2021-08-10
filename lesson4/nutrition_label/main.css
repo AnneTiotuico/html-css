@@ -1,0 +1,92 @@
+html {
+  font-size: 28px;
+  font-family: 'Helvetica Black', Helvetica;
+}
+
+body {
+  width: 680px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+main {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+th {
+  font-family: 'Franklin Gothic Heavy', Arial, sans-serif;
+  text-align: left;
+  font-size: 2.5rem;
+}
+
+main table:nth-child(1) tbody tr td:only-child {
+  border-top: 25px solid black;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  padding: 8px 0;
+}
+
+main table:nth-child(1) tbody tr:nth-child(2) {
+  border-bottom: 15px solid black;
+}
+
+main table:nth-child(2) tbody tr:last-child {
+  border-bottom: 18px solid black;
+}
+
+tbody tr td + td:last-child{
+  text-align: right;
+}
+
+main table:nth-child(2) td, main table:nth-child(3) td  {
+  border-top: 1px solid black;
+}
+
+main table:nth-child(2) tr td:last-child {
+  font-weight: bold;
+}
+
+main table:nth-child(2) tbody tr td.indent {
+  display: inline-block;
+  margin-left: 30px;
+  width: 154%;
+}
+
+main table:nth-child(2) tbody tr td.indent + td {
+  border-top: none;
+}
+
+main table:nth-child(3) tfoot td {
+  border-bottom: none;
+  font-size: .9rem;
+}
+
+main table:nth-child(4) {
+  font-size: .75rem;
+}
+
+main table:nth-child(4) thead tr {
+  border-bottom: 1px solid black;
+}
+
+main table:nth-child(4) tbody td:last-child {
+  text-align: left;
+}
+
+main table:nth-child(4) tbody td.indent {
+  text-indent: 1.1rem;
+}
+
+ul {
+  list-style:  "* ";
+  padding: 10px 15px;
+  margin: 0;
+}
+
+td {
+  padding: 2px 0;
+}
